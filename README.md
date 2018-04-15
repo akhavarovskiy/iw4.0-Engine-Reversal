@@ -1,5 +1,5 @@
 # Call-of-Duty-MW2-IW4
-Reversal of the Infinity Ward engine v4 a heavily modified version of the quake engine
+Reversal of the Infinity Ward engine v4 a heavily modified version of the quake engine. The files only contain the headers used by the engine. All the functions reversed from the engine have been depricated.
 
 [Video Example](https://www.youtube.com/watch?v=zRrv3oA0lLo)
 
