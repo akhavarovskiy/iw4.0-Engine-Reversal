@@ -1,0 +1,85 @@
+#ifndef __IW4_PLAYERSTATE_H__
+#define __IW4_PLAYERSTATE_H__
+
+struct playerstate_s
+{
+	int commandTime;  
+	int pm_type;  
+	int bobCycle; 
+	int pm_flags; 
+	int weapFlags;  
+	int otherFlags;  
+	int pm_time;  
+	float origin[3];  
+	float velocity[3];  
+	float oldVelocity[3];  
+	int weaponTime;  
+	int weaponDelay;  
+	int grenadeTimeLeft;  
+	int throwBackGrenadeOwner;  
+	int throwBackGrenadeTimeLeft;  
+	int weaponRestrictKickTime;  
+	int gravity;  
+	float leanf;  
+	int speed;  
+	float delta_angles[3];  
+	int groundEntityNum;  
+	float vLadderVec[3];  
+	int jumpTime;  
+	float jumpOriginZ;  
+	int legsTimer;  
+	int legsAnim;  
+	int torsoTimer;  
+	int torsoAnim;  
+	int legsAnimDuration;  
+	int torsoAnimDuration;  
+	int damageTimer;  
+	int damageDuration;  
+	int flinchYawAnim;  
+	char _0x00A8[4];
+	int movementDir;  
+	int eFlags;  
+	int eventSequence;  
+	int events[4];  
+	int eventParms[4];  
+	int oldEventSequence;  
+	int oldevents[6];  
+	char _0x00F4[16];
+	int clientNum;  
+	int offHandIndex;  
+	int offhandSecondary;  
+	float spawnAngle[2];  
+	int viewHeightTarget;  
+	float viewHeightCurrent;  
+	int viewHeightLerpTime;  
+	int viewHeightLerpTarget;  
+	int viewHeightLerpDown;  
+	float viewAngleClampBase[2];  
+	float viewAngleClampRange[2];  
+	int damageEvent;  
+	int damageYaw;  
+	int damagePitch;  
+	int damageCount;  
+	int stats[5];  
+	float proneDirection;  
+	float proneDirectionPitch;  
+	float proneTorsoPitch;  
+	int viewlocked;  
+	int viewlocked_entNum;  
+	int cursorHint;  
+	int cursorHintString;  
+	int cursorHintEntIndex;  
+	int iCompassPlayerInfo;  
+	int radarEnabled;  
+	int locationSelectionInfo;  
+	char _0x018C[64];
+	float holdBreathScale;  
+	int holdBreathTimer;  
+	float moveSpeedScaleMultiplier;  
+	int mantleState;//
+	char _pad[224];
+	float fZoomState;
+	float fSpreadMultiplier;
+};//Size=0x3124
+
+#endif /* __IW4_PLAYERSTATE_H__ */
